@@ -1,6 +1,6 @@
-# css2026-<your-suffix>
+# Erick Chauke — CFY Evaluation
 
-This repository contains a Streamlit app demonstrating a researcher profile and a small simulated analysis for "Longitudinal Evaluation of Common First Year (CFY)". Update the app with your real, de-identified cohort and publications data before final analysis.
+This repository contains a Streamlit app demonstrating a researcher profile and a small simulated analysis for the "Longitudinal Evaluation of Common First Year (CFY)". Update the app with real, de-identified cohort and publications data before final analysis.
 
 Quick start (Windows CMD):
 
@@ -10,9 +10,8 @@ Quick start (Windows CMD):
 4. python -m pip install -r requirements.txt
 5. streamlit run app.py
 
-Deployment (Streamlit Cloud):
+Deployment (optional):
 
-- Ensure the GitHub repository name starts with `css2026-` (e.g., `css2026-erick-cfy`).
-- Push to GitHub and then connect the repo in https://share.streamlit.io to create a public app. Make sure the deployed app name or subdomain begins with `css2026-` to meet course requirements.
+- For public deployment, follow Streamlit Cloud documentation: https://docs.streamlit.io/en/stable/deploy_streamlit_app.html to connect a GitHub repository and deploy an app.
 
-Privacy note: Do not upload personally identifiable student data to a public app. Use de-identified or synthetic datasets for demos.
+Privacy note: Do not upload personally identifiable student data to a public app. Use de-identified or synthetic datasets for demonstrations and teaching.
